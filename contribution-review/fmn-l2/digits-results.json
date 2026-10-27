@@ -1,0 +1,56 @@
+{
+  "dataset": "sklearn load_digits",
+  "train_samples": 1347,
+  "test_samples": 450,
+  "clean_correct": 431,
+  "attacked_samples": 100,
+  "selection": "first correctly classified held-out samples; stratified seed 42",
+  "iterations": 100,
+  "upstream_base": "2513a9a8675d7017e5266d3b0ed89124cb436ec5",
+  "results": [
+    {
+      "mode": "before_untargeted",
+      "successes": 100,
+      "median_norm_successful": 0.9375020265579224,
+      "within_bounds": true
+    },
+    {
+      "mode": "before_targeted",
+      "successes": 100,
+      "median_norm_successful": 1.6147137880325317,
+      "within_bounds": true
+    },
+    {
+      "mode": "after_untargeted",
+      "successes": 82,
+      "median_norm_successful": 0.5029802322387695,
+      "within_bounds": true
+    },
+    {
+      "mode": "after_targeted",
+      "successes": 97,
+      "median_norm_successful": 0.8182660937309265,
+      "within_bounds": true
+    }
+  ],
+  "matched_successes": [
+    {
+      "mode": "untargeted",
+      "samples": 82,
+      "median_before": 1.2382545471191406,
+      "median_after": 0.5029802322387695
+    },
+    {
+      "mode": "targeted",
+      "samples": 97,
+      "median_before": 1.626711368560791,
+      "median_after": 0.8182660937309265
+    }
+  ],
+  "versions": {
+    "foolbox": "3.3.4",
+    "torch": "2.13.0",
+    "numpy": "2.5.4"
+  },
+  "device": "cpu"
+}
