@@ -1,4 +1,11 @@
 {
   "implementation_commit": "5691f3811605a7b70c92f9a613b86b5fc8a6270e",
-  "upstream_submitted": false
+  "upstream_submitted": true,
+  "issue_url": "https://github.com/bethgelab/foolbox/issues/741",
+  "pr_url": "https://github.com/bethgelab/foolbox/pull/742",
+  "comment_url": "https://github.com/bethgelab/foolbox/issues/741#issuecomment-6450387999",
+  "state": "OPEN",
+  "merged": false,
+  "upstream_ci": "awaiting_maintainer_approval",
+  "recorded_at": "2026-10-27T18:33:55.355788+00:00"
 }

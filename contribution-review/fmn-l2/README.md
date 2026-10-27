@@ -1,6 +1,6 @@
-# Foolbox FMN L2 projection — ready for review
+# Foolbox FMN L2 projection — submitted upstream
 
-Implemented in [your fork](https://github.com/daniyyell-dev/foolbox/tree/fix/fmn-l2-projection), commit `5691f3811605a7b70c92f9a613b86b5fc8a6270e`, against upstream `2513a9a8675d7017e5266d3b0ed89124cb436ec5`. **No upstream issue, PR or comment has been posted.**
+Implemented in [your fork](https://github.com/daniyyell-dev/foolbox/tree/fix/fmn-l2-projection), commit `5691f3811605a7b70c92f9a613b86b5fc8a6270e`, against upstream `2513a9a8675d7017e5266d3b0ed89124cb436ec5`. Submitted on 27 October 2026: [issue #741](https://github.com/bethgelab/foolbox/issues/741), [PR #742](https://github.com/bethgelab/foolbox/pull/742) and [linking issue comment](https://github.com/bethgelab/foolbox/issues/741#issuecomment-6450387999). The PR is open and mergeable. Upstream Docs and Tests workflows require maintainer approval (`action_required`); they have not run. Maintainer review and merge are pending. [Verified submission record](submission/status.json), [posted PR description](submission/pr-body.md), [workflow snapshot](submission/workflows-verified.json).
 
 ## The bug and fix
 
@@ -60,4 +60,4 @@ The review branch includes the fix and evidence. To rerun the real-data comparis
 
 Maura Pintor, Fabio Roli, Wieland Brendel and Battista Biggio. **Fast Minimum-norm Adversarial Attacks through Adaptive Norm Constraints.** NeurIPS 2021. [Published paper](https://proceedings.neurips.cc/paper_files/paper/2021/hash/a709909b1ea5c2bee24248203b1728a5-Abstract.html).
 
-The contribution corrects an implementation of the published attack; it does not introduce a new algorithm. [Issue draft](ISSUE_DRAFT.md), [PR draft](PR_DRAFT.md), [linking comment draft](COMMENT_DRAFT.md). An upstream PR should use `fix/fmn-l2-projection`, which contains only the implementation and regression tests.
+The contribution corrects an implementation of the published attack; it does not introduce a new algorithm. [Issue draft](ISSUE_DRAFT.md), [PR draft](PR_DRAFT.md), [linking comment draft](COMMENT_DRAFT.md). The submitted PR uses `fix/fmn-l2-projection`, which contains only the implementation and regression tests. Drafts above preserve the pre-submission review; the posted bodies and verification are in [submission/](submission/).
